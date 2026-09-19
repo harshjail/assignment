@@ -7,4 +7,5 @@ if num == var:
     print("you guessed it correctly ")
 else :
     print(f"you gueessed it wrong the correct values is {var}")
+print("thank you for playing the game")
     
