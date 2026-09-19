@@ -1,5 +1,10 @@
-import requests 
+import random 
+var =  random.randint(1,10)
+print("guess the value between 1 and 10")
+num = int(input("enter your guess:"))
 
-url = "https://api.open-meteo.com/v1/forecast"
-response = requests.get(url)
-print(response.json())
+if num == var:
+    print("you guessed it correctly ")
+else :
+    print(f"you gueessed it wrong the correct value is {var}")
+    
